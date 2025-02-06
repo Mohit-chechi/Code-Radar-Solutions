@@ -3,8 +3,9 @@
 int main() {
     float a;
 
-    printf(" enter float number = \n");
-    scanf("%f",&a);
-    printf("output %f",&a)
+    printf("Enter float number: ");
+    scanf("%f", &a);
+    printf("Output: %f\n", a);
+
     return 0;
 }
