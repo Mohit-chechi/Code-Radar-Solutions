@@ -2,7 +2,8 @@
 
 int main() {
     int a;
-    scanf("%c", &a);
+    // Use getchar() to read a single character
+    a = getchar();
     printf("You entered: %c\n", a);
     return 0;
 }
