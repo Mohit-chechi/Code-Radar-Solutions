@@ -4,5 +4,5 @@ int x,y,z,a,b;
 scanf("%d %d %d ", &x , &y , &z);
 a = x+y+z;
 b=a/3;
-printf("Average:",b);
+printf("Average:%.2d",b);
 }
